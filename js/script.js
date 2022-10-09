@@ -85,7 +85,7 @@ const specificRepoInfo = async function(repoName) {
 };
 
 const displaySpecificRepoInfo = function (repoInfo, languages) {
-    backToGalleryButton.remove("hide");
+    backToGalleryButton.classList.remove("hide");
     repoData.innerHTML = "";
     repoData.classList.remove("hide");
     repos.classList.add("hide");
